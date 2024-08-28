@@ -131,7 +131,9 @@ void WareHouse::start(){
         getline(cin, input);
 
         BaseAction* toEx = createBaseActionFromInput(input);
-        toEx->act(*this);
+
+        if (toEx != nullptr)
+            toEx->act(*this);
     }
 }
 
