@@ -1,16 +1,15 @@
 # Warehouse-Simulator
-<!-- ![Warehouse Image](https://www.newcastlesys.com/hs-fs/hubfs/2022/0329/220329-keeping-a-clean-warehouse-why-cleaner-facilities-outperform-cluttered-ones-2.jpeg?width=350&name=220329-keeping-a-clean-warehouse-why-cleaner-facilities-outperform-cluttered-ones-2.jpeg). -->
+
+## Motivation
+This project simulates the operations of a warehouse center using Object-Oriented Programming principles in C++.
+Originally submitted as a school project, the objective was to demonstrate our understanding and implementation of OOP concepts.
+Having initially learned Java, which abstracts much of the memory management, this project places a strong emphasis on our proficiency with pointers, references, and correct memory management in C++. Special attention was given to avoiding memory leaks and ensuring efficient memory usage.
 
 ## Overview
 As part of the efforts to contribute and take care of the country’s citizens, few citizens decided to establish a food warehouse that supplies others with food packages.
 The center is operated by volunteers in different roles, and their job is to handle orders made by the customers.
 In this Project, we wrote a C++ program that simulates this “Food Warehouse management system”.
 The program opens the warehouse, assigns volunteers and customers, assigns orders, handles them, performs steps in the simulation, and more actions that will be described later.
-
-## Motivation
-This project simulates the operations of a warehouse center using Object-Oriented Programming principles in C++.
-Originally submitted as a school project, the objective was to demonstrate our understanding and implementation of OOP concepts.
-Having initially learned Java, which abstracts much of the memory management, this project places a strong emphasis on our proficiency with pointers, references, and correct memory management in C++. Special attention was given to avoiding memory leaks and ensuring efficient memory usage.
 
 ## How To Run
 This program requires a path to a config file at its execution that will include the initial customers & volunteers of the warehouse.
